@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg fixed-top mb-2 navbar-dark bg-dark">
+  <div class="container">
+      <a href="#" class="navbar-brand">Angular State Management</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropDown">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropDown">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a href="#" class="nav-link fw-semibold">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link fw-semibold">Cart {{ cartCount |async }}</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link fw-semibold">Signals</a>
+              </li>
+
+          </ul>
+      </div>
+  </div>
+</nav>
+<app-counter></app-counter>
+<app-signal></app-signal>

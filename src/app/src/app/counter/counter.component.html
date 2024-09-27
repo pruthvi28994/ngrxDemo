@@ -1,0 +1,15 @@
+<div class="container mt-5 ms-auto">
+    <div class="row mb-5  align-center">
+        <div class="col-12">
+            <h1>Counters Using Store NgRx</h1>
+            <h5>{{ $count | async}}</h5>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-6">
+            <button class="btn btn-success mx-2" type="button" (click)="incrementCount()">Increment</button>
+            <button class="btn btn-danger mx-2" type="button" (click)="decrementCount()">Decrement</button>
+            <button class="btn btn-warning mx-2" type="button" (click)="resetCount()">Reset</button>
+        </div>
+    </div>
+</div>
